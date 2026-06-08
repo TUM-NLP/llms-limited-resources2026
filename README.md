@@ -92,7 +92,7 @@ Finally, for spell checking and grammar checking, we use the **F1-score** to ass
 
 The final ranking in the leaderboard will consider the scores from **all five tasks equally**.
 
-We will provide a repository to help with the evaluation. It is a fork of [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and can be used to reproduce the baseline results and run the evaluation script.
+We provide this [repository](https://github.com/TUM-NLP/llms-lim-res-eval-2026/) to help with the evaluation. It is a fork of [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and can be used to reproduce the baseline results and run the evaluation script.
 
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.
@@ -107,10 +107,11 @@ TUM Heilbronn:
 - Kathy Hämmerl
 - Shu Okabe
 
-Witaj-Sprachzentrum (for both Upper and Lower Sorbian):
+WITAJ-Sprachzentrum (for both Upper and Lower Sorbian):
 - Beate Brězan 
 - Anita Hendrichowa 
 - Marko Měškank
+- Kryštof Peršín (maths reasoning dataset annotation)
 - Tomaš Šołta (language certificate)
 
 
