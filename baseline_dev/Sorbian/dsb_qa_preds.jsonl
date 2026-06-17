@@ -1,0 +1,158 @@
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H01", "question": "Ga cotej Pětš a Monika do kina hyś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H1", "question": "Ten muž jo", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H2", "question": "Chto jo chóry?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H3", "question": "Co co Marko měś?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H4", "question": "Źo stoj kněz Šulc?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H5", "question": "Źo bydli muž?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H6", "question": "Kótare pówołanje ma kněni Drechslerowa?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H02", "question": "Film wiźiśo stwórtk w Chóśebuzu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H7", "question": "Koncert jo witśe.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H8", "question": "Ricarda Brandtojc jo 17 lět stara.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H9", "question": "Žołta papjera lažy napšawo.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H10", "question": "Berlinale jo we februarje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H11", "question": "Simona co", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H12", "question": "Telefonowe cysło wót kněni Petrikoweje jo ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H13", "question": "Kněz Kowalewski co ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H14", "question": "Maś co kupiś", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.H15", "question": "Studenty su", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L1", "question": "Pšawa replika jo:", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L2", "question": "Pšawa replika jo:", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L6", "question": "Prezentacija noweje Pratyje jo w Mósće.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L7", "question": "Prezentacija jo w Mósćańskem muzeumje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L8", "question": "Ludowe nakładnistwo Domowina jo w Drježdźanach.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L9", "question": "Kněz Fobo a kněni Fobowa matej tśi źiśi. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L10", "question": "Pawlina jo źewjeś lět stara.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L03", "question": "Rěcny centrum WITAJ jo na Žylojskej droze. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L11", "question": "Starjejše pśigótuju mały program.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L12", "question": "Srjodu njejo sekretariat wócynjony.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L13", "question": "Sobotu njejo žeden rabat. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L14", "question": "Pónjeźele njejo kurs, ale wałtoru. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A1.1.L15", "question": "Wałtoru informěrujo kněz Kowal wó Dolnoserbskem gymnaziumje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H01", "question": "W kótarej śpě źěła kněz Młynk?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H1", "question": "Ga co Anna na kurs chójźiś?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H2", "question": "Źo źěła muž?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H3", "question": "Co susedka rada pijo?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H4", "question": "Kak stary jo kněz Buchan?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H5", "question": "Źo jo Helena?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H6", "question": "Wó co pšosy Markus?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H02", "question": "Spiwaŕka jo chóra.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H7", "question": "Šołta z Hochoze wita na wejsny swěźeń.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H8", "question": "Pónjeźele móžom w Strjažowje nakupowaś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H9", "question": "Móžomy w busu kafej a jěšnicki kupiś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H10", "question": "Kněni Nowakowa źěła wót 1. oktobra w Baršću.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H11", "question": "Ga co Milena sportowaś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H12", "question": "Źo bydli Gabriela Marija Šmajdźinowa? ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H13", "question": "Co dej Kristina kupiś? ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H14", "question": "Ga kn. Budarjowa zasej źěła? ", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.H15", "question": "Źo co Julija hyś? ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L01", "question": "Martina ma narodniny.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L1", "question": "Daniela njepśiźo na kafej.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L2", "question": "Daniela co piwo kupiś.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L3", "question": "Kněz Šmidt co Nowy Casnik cytaś.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L4", "question": "Nowy Casnik dostanjośo kuždy mjasec.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L5", "question": "Online wersija płaśi 24,00 € na lěto. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L11", "question": "Kněni Bóśonowa njebydli w Bórkowach.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L12", "question": "Bórkowy su źěl Błotow.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L13", "question": "Kněni Bóśonowa źěła w Domje zmakanjow.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L14", "question": "Kužde druge lěto jo w Bórkowach wejsny swěźeń. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "A2.1.L15", "question": "Bórkojske źowća nose raźi serbsku drastwu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H1", "question": "Stwórtk wjacor jo było wótwórjenje noweje wustajeńce.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H2", "question": "Program Šule za dolnoserbsku rěc a kulturu wuchada jano w nazymje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H3", "question": "Serbske radijo gratulěrujo narodninarjam a narodninaŕkam.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H4", "question": "Młoźina w Dolnej Łužycy woplěwa wšake žnjowne nałogi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H5", "question": "Wjerch H. v. Pückler jo załožył město Chóśebuz.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H16", "question": "Kótare mě nosy nowe towaristwo we Wětošowje?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H17", "question": "Wjele lět wobstoj partnaŕstwo mjazy Drjenowom a Ochlu?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H18", "question": "Wótkul póchada młody kšylc?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H19", "question": "Ga pśiźo młoźinski program “Bubak” w serbskem programje rbb?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.H20", "question": "Wjele rejowarjow jo se na drastwinem swěźenju w Lubnjowje wobźěliło?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L1", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L2", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L3", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L4", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L5", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L6", "question": "Chto pśewjeźo kubłańsku jězbu? ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L7", "question": "Napismo pśi zachoźe krajnego sejma jo ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L8", "question": "Wjele cłonkow ma Bramborski parlament?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L9", "question": "Wjelikosć plenarnego zala jo ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.L10", "question": "Cerwjene w twarjenju su na pśikład ", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S1", "question": "Wupołniśo městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S2", "question": "Wupołniśo městno co. II z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S3", "question": "Wupołniśo městno co. III z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S4", "question": "Wupołniśo městno co. IV z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S5", "question": "Wupołniśo městno co. V z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S6", "question": "Wupołniśo městno co. VI z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S7", "question": "Wupołniśo městno co. VII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S8", "question": "Wupołniśo městno co. VIII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S9", "question": "Wupołniśo městno co. IX z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S10", "question": "Wupołniśo městno co. X z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S11", "question": "Wupołniśo městno co. XI z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S12", "question": "Wupołniśo městno co. XII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S13", "question": "Wupołniśo městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S14", "question": "Wupołniśo městno co. II z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S15", "question": "Wupołniśo městno co. III z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S16", "question": "Wupołniśo městno co. IV z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S17", "question": "Wupołniśo městno co. V z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S18", "question": "Wupołniśo městno co. VI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S19", "question": "Wupołniśo městno co. VII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S20", "question": "Wupołniśo městno co. VIII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S21", "question": "Wupołniśo městno co. IX z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S22", "question": "Wupołniśo městno co. X z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S23", "question": "Wupołniśo městno co. XI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B1.1.S24", "question": "Wupołniśo městno co. XII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H1", "question": "Pśestajarje a pśestajaŕki budu w komunach serbskego sedleńskego ruma notne. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H2", "question": "Brunicowa industrija pówušyjo licbu źěłowych městnow za źěłaśerjow wušej 50 let. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H3", "question": "Financěrowanje domowniskich muzejow jo pśez gmejny zawěsćone. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H4", "question": "Mócnego dešća dla su dejali w luboraskej góli pśestaś zrumowaś wójaŕske zwucowanišćo. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H5", "question": "Mustwo Energija Chóśebuz jo graśe dobyło.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H16", "question": "Co raźi Wam serwisowy sobuźěłaśeŕ?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H17", "question": "Co co drogowański běrow wěźeś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H18", "question": "Co se pšaša reportaŕka?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H19", "question": "Cogodla se „Serbska studnja“ pórěźijo?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.H20", "question": "Cogodla jo ewentuelnje stwórte bajkowe cołnowanje zeger 20.00 móžne?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L1", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L2", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L3", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L4", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L5", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L6", "question": "Šleswig-Holsteinska jo", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L7", "question": "Dańska a nimska mjeńšyna", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L8", "question": "Dańska mjeńšyna w Nimskej", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L9", "question": "Nimce w Dańskej maju", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L10", "question": "Nimska a dańska Šleswigska", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L11", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L12", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L13", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L14", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L15", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L16", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L17", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L18", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L19", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L20", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L21", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.L22", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S1", "question": "Wupołniśo městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S2", "question": "Wupołniśo městno co. II z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S3", "question": "Wupołniśo městno co. III z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S4", "question": "Wupołniśo městno co. IV z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S5", "question": "Wupołniśo městno co. V z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S6", "question": "Wupołniśo městno co. VI z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S7", "question": "Wupołniśo městno co. VII z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S8", "question": "Wupołniśo městno co. VIII z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S9", "question": "Wupołniśo městno co. IX z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S10", "question": "Wupołniśo městno co. X z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S11", "question": "Wupołniśo městno co. XI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S12", "question": "Wupołniśo městno co. XII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S13", "question": "Wupołniśo městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S14", "question": "Wupołniśo městno co. II z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S15", "question": "Wupołniśo městno co. III z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S16", "question": "Wupołniśo městno co. IV z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S17", "question": "Wupołniśo městno co. V z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S18", "question": "Wupołniśo městno co. VI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S19", "question": "Wupołniśo městno co. VII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S20", "question": "Wupołniśo městno co. VIII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S21", "question": "Wupołniśo městno co. IX z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S22", "question": "Wupołniśo městno co. X z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S23", "question": "Wupołniśo městno co. XI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_dev_qa_dsb", "question_id": "B2.1.S24", "question": "Wupołniśo městno co. XII z pšawym słowom.", "pred": 1}

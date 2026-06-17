@@ -88,11 +88,14 @@ This includes:
 ## Evaluation Methods
 We will use **chrF++** to evaluate machine translation. For consistency with the previous WMT 2022 Shared Task, we also report BLEU for MT.
 For the question-answering and maths-reasoning tasks, we use the standard **accuracy**. 
-Finally, for spell checking and grammar checking, we use the **F1-score** to assess both detection (finding the incorrect word) and correction (outputting the correct word).
+Finally, for spell checking and grammar checking, we use the ~~F1-score~~ **accuracy** to assess both detection (finding the incorrect word) and correction (outputting the correct word).
 
 The final ranking in the leaderboard will consider the scores from **all five tasks equally**.
 
 We provide this [repository](https://github.com/TUM-NLP/llms-lim-res-eval-2026/) to help with the evaluation. It is a fork of [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and can be used to reproduce the baseline results and run the evaluation script.
+
+## Baseline results
+The baseline results on the *dev* set is in the `baseline_dev` folder.
 
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.
