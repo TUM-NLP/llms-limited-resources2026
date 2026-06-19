@@ -30,9 +30,9 @@ The novelties are as follows:
 - Submission of the model: either publicly on HuggingFace (recommended, when possible) or privately to us (we will *not* publish it) for hidden evaluation datasets.
 
 ## Datasets
-Datasets and details (field schemas, sources, licenses) for both Upper Sorbian and Lower Sorbian can be found in the [`Sorbian/`](Sorbian/README.md) folder.
+Datasets and details (field schemas, sources, licenses) for both Upper Sorbian and Lower Sorbian can be found in the [`Sorbian/`](Sorbian/) folder.
 
-Datasets and details for Ukrainian can be found in the [`Ukrainian/`](Ukrainian/README.md) folder.
+Datasets and details for Ukrainian can be found in the [`Ukrainian/`](Ukrainian/) folder.
 
 Notes: 
 - The licences in both subfolders differ; see the per-folder READMEs for details.
@@ -95,7 +95,7 @@ The final ranking in the leaderboard will consider the scores from **all five ta
 We provide this [repository](https://github.com/TUM-NLP/llms-lim-res-eval-2026/) to help with the evaluation. It is a fork of [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and can be used to reproduce the baseline results and run the evaluation script.
 
 ## Baseline results
-The baseline results on the *dev* set is in the `baseline_dev` folder.
+The baseline results on the *dev* set is in the [`baseline_dev`](baseline_dev/) folder.
 
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.

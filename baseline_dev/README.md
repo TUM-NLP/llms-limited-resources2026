@@ -6,8 +6,11 @@ We converted the outputs, which can be found in their respective sub-folders.
 
 As noted in the evaluation repository, QA is computed **separately** (but with the same model).
 
-Note: we compute *one* aggregated score per *task* (average chrF++ for MT, average accuracy otherwise), in **bold** in the tables.  
+Notes: 
+- We compute *one* aggregated score per *task* (average chrF++ for MT, average accuracy otherwise), in **bold** in the tables.  
 We will use those scores to compute the final ranking.
+- For the Sorbian QA task, we compute the accuracy *after* concatenating all question levels (and not the average of the accuracy per level; denoted as sep. in the table).
+- For MR, we use the [Math-Verify library](https://github.com/huggingface/Math-Verify) for better evaluation of the maths outputs.
 
 ## Ukrainian results (dev)
 
@@ -46,9 +49,9 @@ We will use those scores to compute the final ranking.
 |    | dsb-hsb | chrF++ | 30.1090 |
 |    | hsb-dsb | BLEU | 5.2676 |
 |    | hsb-dsb | chrF++ | 28.3536 |
-| QA | all | Exact Match | **0.4937** |
-|    | hsbqa | Exact Match | 0.5174 |
-|    | dsbqa | Exact Match | 0.4700 |
+| QA | all | Exact Match | **0.4399** |
+|    | hsbqa | Exact Match | 0.4620 (sep. 0.5174) |
+|    | dsbqa | Exact Match | 0.4177 (sep. 0.4700) |
 | SC | all | Exact Match | **0.0920** |
 |    | hsbsc | Exact Match (Wrong) | 0.0970 |
 |    |       | Exact Match (Corrected) | 0.0935 |
@@ -59,6 +62,6 @@ We will use those scores to compute the final ranking.
 |    |       | Exact Match (Corrected) | 0.0045 |
 |    | dsbgc | Exact Match (Wrong) | 0.0336 |
 |    |       | Exact Match (Corrected) | 0.0088 |
-| MR | all | Exact Match | **0.0417** |
+| MR | all | Exact Match | **0.0833** |
 |    | hsbmr | Exact Match | 0.0417 |
-|    | dsbmr | Exact Match | 0.0417 |
+|    | dsbmr | Exact Match | 0.1250 |
