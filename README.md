@@ -39,7 +39,7 @@ Notes:
 - External datasets can be used on top of the provided corpora. For fairness and reproducibility, they should, however, be **publicly available**.
 
 ## Task description
-MT and QA have minor changes from last year's edition. The three new tasks (SC, GC, and MR) are described below in more details.
+MT and QA have minor changes from last year's edition. The three new tasks (SC, GC, and MR) are described below with more details.
 
 ### Machine Translation (MT)
 For Ukrainian, we focus on the following language direction (as in the 2025 edition):
@@ -86,7 +86,7 @@ This includes:
 - the test sets of the 2025 edition of this Shared Task
 
 ## Evaluation Methods
-We will use **chrF++** to evaluate machine translation. For consistency with the previous WMT 2022 Shared Task, we also report BLEU for MT.
+We will use **chrF++** to evaluate machine translation. For consistency with the previous WMT 2022 and 2025 Shared Tasks, we also report BLEU for MT.
 For the question-answering and maths-reasoning tasks, we use the standard **accuracy**. 
 Finally, for spell checking and grammar checking, we use the ~~F1-score~~ **accuracy** to assess both detection (finding the incorrect word) and correction (outputting the correct word).
 
@@ -95,7 +95,43 @@ The final ranking in the leaderboard will consider the scores from **all five ta
 We provide this [repository](https://github.com/TUM-NLP/llms-lim-res-eval-2026/) to help with the evaluation. It is a fork of [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and can be used to reproduce the baseline results and run the evaluation script.
 
 ## Baseline results
-The baseline results on the *dev* set is in the [`baseline_dev`](baseline_dev/) folder.
+The baseline results on the *dev* set are in the [`baseline_dev`](baseline_dev/) folder.
+
+## Test Set
+30/06/2026: We release the test sets for both language tracks in their respective folders.  
+The test set file names contain `test` instead of `dev` (e.g., `dsb_gc_test.jsonl` instead of `dsb_gc_dev.jsonl`).
+
+We report below the statistics of the test sets.  
+
+Notes:
+- If the **MT** direction was covered in last year's edition, the test set is the same (or included in this year's edition).
+- The **MR** test set includes the dev set (the top 12 questions per level).
+
+### Ukrainian Track
+
+| Task | dataset_id | N_instances |
+|---|---|---|
+| MT | wmt2026_lrllm_test_mt_en-ukr | 87 |
+| MT | wmt2026_lrllm_test_mt_cs-ukr | 230 |
+| QA | wmt2026_lrllm_test_qa_ukr | 751 |
+| QA | wmt2026_lrllm_test_qa_mmlu_ukr | 14,042 |
+| SC | wmt2026_lrllm_test_sc_ukr | 2,000 |
+| GC | wmt2026_lrllm_test_gc_ukr | 2,000 |
+| MR | wmt2026_lrllm_test_mr_ukr | 250 |
+
+Note: The instances of the en->uk translation direction contain *documents* (and not sentences).
+
+### Sorbian Track
+
+| Task | dataset_id | N_instances (hsb) | N_instances (dsb) |
+|---|---|---|---|
+| MT | wmt2026_lrllm_test_mt_de-{hsb/dsb} | 4,822 | 5,352 |
+| MT | wmt2026_lrllm_test_mt_{hsb/dsb}-de | 4,000 | 4,000 |
+| MT | wmt2026_lrllm_test_mt_{h/d}sb-{d/h}sb | 4,000 | 4,000 |
+| QA | wmt2026_lrllm_test_qa_{hsb/dsb} | 210 | 205 |
+| SC | wmt2026_lrllm_test_sc_{hsb/dsb} | 2,000 | 2,000 |
+| GC | wmt2026_lrllm_test_gc_{hsb/dsb} | 2,000 | 1,726 |
+| MR | wmt2026_lrllm_test_mr_{hsb/dsb} | 250 | 250 |
 
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.
