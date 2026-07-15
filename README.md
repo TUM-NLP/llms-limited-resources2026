@@ -42,7 +42,7 @@ Notes:
 MT and QA have minor changes from last year's edition. The three new tasks (SC, GC, and MR) are described below with more details.
 
 ### Machine Translation (MT)
-For Ukrainian, we focus on the following language direction (as in the 2025 edition):
+For Ukrainian, we focus on the following language directions (as in the 2025 edition):
 - English to Ukrainian (en->uk)
 - Czech to Ukrainian (cs->uk)
 
@@ -133,6 +133,68 @@ Note: The instances of the en->uk translation direction contain *documents* (and
 | GC | wmt2026_lrllm_test_gc_{hsb/dsb} | 2,000 | 1,726 |
 | MR | wmt2026_lrllm_test_mr_{hsb/dsb} | 250 | 250 |
 
+## Submission procedures
+### Output format
+The output format for the Shared Task is a standardised **JSONL** file across languages and tasks. 
+For convenience during submission, **all subfiles for each task are concatenated**, leading to one file per task for a language. This means that participation in one track leads to five files (MT, QA, SC, GC, and MR); for both tracks, ten files.
+
+Below, we list the required fields per instance:
+- For MT: dataset_id, sent_id, source, **pred**
+- For QA: dataset_id, question_id, question, **pred**
+- For SC and GC: dataset_id, id, input_sentence, **pred_incorrect**, **pred_corrected**
+- For MR: dataset_id, id, question, **pred**
+
+Predictions should be in the `pred` field for MT, QA, and MR. For SC and GC, the identified incorrect word should be in `pred_incorrect` and its correction in `pred_corrected`.
+
+We order subfiles for concatenation as follows:
+- For the Ukrainian track:
+  - MT (2 subfiles): CS-UKR (`wmt2026_lrllm_test_mt_cs-ukr`), EN-UKR (`wmt2026_lrllm_test_mt_en-ukr`)
+  - QA (2 subfiles): ZNO (`wmt2026_lrllm_test_qa_ukr`), MMLU (`wmt2026_lrllm_test_qa_mmlu_ukr`)
+  - SC: no concatenation (`wmt2026_lrllm_test_sc_ukr`)
+  - GC: no concatenation (`wmt2026_lrllm_test_gc_ukr`)
+  - MR: no concatenation (`wmt2026_lrllm_test_mr_ukr`)
+- For the Sorbian track (first Upper and then Lower Sorbian):
+  - MT (6 subfiles): 
+    - DE->HSB (`wmt2026_lrllm_test_mt_de-hsb`), 
+    - HSB->DE (`wmt2026_lrllm_test_mt_hsb-de`), 
+    - DE->DSB (`wmt2026_lrllm_test_mt_de-dsb`), 
+    - DSB->DE (`wmt2026_lrllm_test_mt_dsb-de`), 
+    - HSB->DSB (`wmt2026_lrllm_test_mt_hsb-dsb`), 
+    - DSB->HSB (`wmt2026_lrllm_test_mt_dsb-hsb`)
+  - QA (2 subfiles): HSB (`wmt2026_lrllm_test_qa_hsb`), DSB (`wmt2026_lrllm_test_qa_dsb`)
+  - SC (2 subfiles): HSB (`wmt2026_lrllm_test_sc_hsb`), DSB (`wmt2026_lrllm_test_sc_dsb`)
+  - GC (2 subfiles): HSB (`wmt2026_lrllm_test_gc_hsb`), DSB (`wmt2026_lrllm_test_gc_dsb`)
+  - MR (2 subfiles): HSB (`wmt2026_lrllm_test_mr_hsb`), DSB (`wmt2026_lrllm_test_mr_dsb`)
+
+To make the output format conversion easier, we provide two resources.  
+First, dummy outputs are present in the following folder of our GitHub repository: https://github.com/TUM-NLP/llms-limited-resources2026/tree/main/dummy_submission.  
+Second, if you are using our fork of lm-evaluation-harness (see above), the conversion script has been updated to the output format: https://github.com/TUM-NLP/llms-lim-res-eval-2026/blob/main/testphase_eval/convert_output_formats.py.
+
+### Submission platform
+Thanks to the main Shared Task organisers, submissions for our Shared Task can also be handled by the **OCELoT** platform: https://ocelot-wmt.azurewebsites.net/leaderboard/2.  
+Many thanks to Roman Grundkiewicz for making OCELoT work for us!
+
+Tutorial:
+1. After selecting our Shared Task, please register your team (yellow button). You need a team name and an email. You will then receive a unique token to use (akin to a password).
+2. Output files can be uploaded using the ‘create submission’ button (green button). Please select the corresponding test file (i.e., task + language) for your submission. You can choose whether this is your primary submission or not (it can be changed later).
+3. Each output file must be submitted separately. Please remember that a submission is valid for us only when **all outputs** (MT, QA, SC, GC, and MR) are uploaded.
+4. Once you have submitted your files, you will see a publication details section to fill in (with the institution name, the system name, and a small description of the system). These are for the general MT Shared Task, not for ours. Please ignore these.
+5. Instead, we provide the following form to fill in: https://forms.gle/rCKEThMtTvfaNhWW9.  
+We will require a short paragraph describing your system, which we will use for our findings article. Please detail the models, datasets, and main techniques that you relied on.  
+6. For better reproducibility and further tests, we also require a link to the submitted model (public or private HuggingFace or private drive) in the form. It should correspond to the primary submission for consistency.
+
+**Important**: A submission is valid when: (1) all the (5 or 10) files are uploaded on OCELoT, (2) the model for primary submission is uploaded (publicly or privately), and (3) the model form is filled in.
+
+To check whether your submissions are correctly taken into account by the system, OCELoT displays a few automatic metrics.  
+Please note that these leaderboards are not final, as we report the following proxies of the main metrics for each task for practical reasons:
+- MT: BLEU and chrF++ on all language pairs
+- QA: accuracy of all question datasets
+- SC and GC: accuracy when both the error detection (`incorrect_word`) and correction (`correct_word`) match the reference
+- MR: accuracy (without handling equivalent maths results)  
+
+We will provide the final ranking shortly after the submission phase is closed.
+
+
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.
 
@@ -155,7 +217,7 @@ WITAJ-Sprachzentrum (for both Upper and Lower Sorbian):
 
 
 ## Acknowledgements
-We thank the UNLP 2024 Shared Task 2024 team
+We thank the UNLP 2024 Shared Task team
 - Roman Kyslyi
 - Mariana Romanyshyn
 - Oleksiy Syvokon
