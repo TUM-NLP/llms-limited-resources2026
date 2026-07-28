@@ -90,6 +90,7 @@ def evaluate_checking_from_path(pred_file_path, gold_file_path):
 
     return evaluate_checking(pred_df, gold_df)
 
+
 ## MR
 def maths_reasoning_evaluation(pred_list, gold_list):
     '''Compute the maths reasoning score with a dedicated parser.'''
@@ -100,7 +101,7 @@ def maths_reasoning_evaluation(pred_list, gold_list):
     for i in range(n):
         gold = parse(gold_list[i])
         pred = parse(pred_list[i])
-        
+
         match_list.append(verify(gold, pred))
 
     return sum(match_list) / n

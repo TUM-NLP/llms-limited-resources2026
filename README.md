@@ -195,6 +195,9 @@ Please note that these leaderboards are not final, as we report the following pr
 We will provide the final ranking shortly after the submission phase is closed.
 
 
+## Results
+The results for the primary submissions are available in the [`results.md`](results.md) file.
+
 ## Contact / Organisers
 Please join our Google group for further information: https://groups.google.com/g/llms-with-limited-resources-2026.
 

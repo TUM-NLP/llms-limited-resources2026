@@ -1,10 +1,11 @@
 # Results
 
 ## Overall results
-Below are the results for each team's *primary* submissions. 
+Below are the results for each team's *primary* submission.
 
-For the final rank per track (i.e., for one language), points are given according to the rank of the submission *per task* (computed as the average per sub-task), with the best output having the maximum number of points. 
-In case of ties, we ranked according to the MT results.
+For the final rank per track (i.e., for Ukrainian or Sorbian), points are given according to the rank of the submission *per task* (computed as the average per sub-task).
+The best output gets the maximum number of points. 
+In the case of ties, we ranked according to the MT results.
 
 The winning team per track and the best submission per task are in bold.
 
@@ -29,31 +30,32 @@ The winning team per track and the best submission per task are in bold.
 
 
 ## Detailed results
-We report below the detailed result scores per track
+We report below the detailed scores per track.
+The aggregated score per *task* is in **bold** in the tables.
 
-## Ukrainian results
+### Ukrainian results
 
-| Task | Subset | Metric | TUMHN | koshi | TUM_baseline | Zolint |
-|------|--------|--------|-------|-------|--------------|--------|
-| MT | all | chrF++ | **16.08** | **16.80** | **18.46** | **49.86** |
-|    | ces-ukr | BLEU | 3.93 | 6.01 | 5.38 | 23.66 |
-|    | ces-ukr | chrF++ | 19.77 | 23.05 | 25.44 | 51.53 |
-|    | eng-ukr | BLEU | 1.01 | 0.70 | 0.55 | 15.43 |
-|    | eng-ukr | chrF++ | 12.39 | 10.55 | 11.47 | 48.18 |
-| QA | all | Exact Match | **40.13** | **46.99** | **36.33** | **41.15** |
-|    | ukrqa | Exact Match | 35.82 | 45.01 | 30.76 | 37.42 |
-|    | ukrmmlu | Exact Match | 44.44 | 48.97 | 41.90 | 44.88 |
-| SC | all | Exact Match | **16.50** | **52.50** | **8.38** | **66.43** |
-|    | ukrsc | Exact Match (Wrong) | 22.20 | 60.10 | 8.55 | 71.70 |
-|    |       | Exact Match (Corrected) | 10.80 | 44.90 | 8.20 | 61.15 |
-| GC | all | Exact Match | **6.80** | **30.55** | **2.18** | **45.18** |
-|    | ukrgc | Exact Match (Wrong) | 10.35 | 36.55 | 2.70 | 45.25 |
-|    |       | Exact Match (Corrected) | 3.25 | 24.55 | 1.65 | 45.10 |
-| MR | ukrmr | Exact Match | **4.40** | **0.40** | **20.00** | **21.60** |
+| Task | Subset | Metric | TUMHN | baseline | koshi | Zolint |
+|------|--------|--------|-------|----------|-------|--------|
+| MT | all | chrF++ | **16.08** | **18.46** | **16.80** | **49.86** |
+|    | ces-ukr | BLEU | 3.93 | 5.38 | 6.01 | 23.66 |
+|    | ces-ukr | chrF++ | 19.77 | 25.44 | 23.05 | 51.53 |
+|    | eng-ukr | BLEU | 1.01 | 0.55 | 0.70 | 15.43 |
+|    | eng-ukr | chrF++ | 12.39 | 11.47 | 10.55 | 48.18 |
+| QA | all | Exact Match | **40.13** | **36.33** | **46.99** | **41.15** |
+|    | ukrqa | Exact Match | 35.82 | 30.76 | 45.01 | 37.42 |
+|    | ukrmmlu | Exact Match | 44.44 | 41.90 | 48.97 | 44.88 |
+| SC | all | Exact Match | **16.50** | **8.38** | **52.50** | **66.43** |
+|    | ukrsc | Exact Match (Wrong) | 22.20 | 8.55 | 60.10 | 71.70 |
+|    |       | Exact Match (Corrected) | 10.80 | 8.20 | 44.90 | 61.15 |
+| GC | all | Exact Match | **6.80** | **2.18** | **30.55** | **45.18** |
+|    | ukrgc | Exact Match (Wrong) | 10.35 | 2.70 | 36.55 | 45.25 |
+|    |       | Exact Match (Corrected) | 3.25 | 1.65 | 24.55 | 45.10 |
+| MR | ukrmr | Exact Match | **4.40** | **20.00** | **0.40** | **21.60** |
 
-## Sorbian results 
+### Sorbian results 
 
-| Task | Subset | Metric | TUM_baseline | HSE | Hitsz | LT3 | HeyBusan |
+| Task | Subset | Metric | baseline | HSE | Hitsz | LT3 | HeyBusan |
 |------|--------|--------|--------------|-----|-------|-----|----------|
 | MT | all | chrF++ | **21.68** | **61.50** | **63.12** | **69.57** | **72.75** |
 |    | deu-hsb | BLEU | 0.96 | 30.48 | 35.32 | 42.07 | 48.61 |
